@@ -8,7 +8,7 @@ function calc() {
        operand = prompt("select an operation + - * /" )
        num1 = num1.trim()
        num2 = num2.trim()
-       if (!isNaN(num1) && num1 != '' && num1 != ' ' )  {
+       if (!isNaN(num1) && num1 != '' && num1 != ' '  && num1 != null )  {
               if (!isNaN(num2) && num2 != '' && num2 != ' ' && num2 != null)  {
                      
                      mathOperation(num1, num2)
